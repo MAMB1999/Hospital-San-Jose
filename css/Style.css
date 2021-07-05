@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/*Ajustes Generales*/
+h1,h2,h3,h4{
+    color: rgb(31, 29, 29);
+    font-weight: 300;
+}
+.contenedor ,.contenedor1{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+h1{
+    font-size: 2em;
+    width: 40%;
+}
+/* HEADER */
+header::before{
+    content: "";
+    display: block;
+    margin-bottom: 40px;
+}
+/*Barra de Navegacion*/
+nav{
+    width: 100%;
+    height: 80px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    border-bottom: 1px solid transparent;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
+    transition: ease-in-out 0.5s;
+}
+/*Logo*/
+nav > img{
+    margin: 12% 0;
+    height: 80%;
+    display: inline-block;
+    vertical-align: top;
+}.titulo-principal2{
+    width: 100%;
+}
+/*Contenedor enlaces*/
+nav ul{
+    display: inline-block;
+    width: 50%;
+    font-weight: 300;
+}
+/*Enlaces*/
+nav ul a{
+    color: #5D6678;
+    text-decoration: none;
+    margin-left: 25px;
+}/*Hamburguesa contendedor*/
+.hamburguer{
+    width: 80px;
+    height: 80px;
+    display: none;
+    text-align: center;
+    z-index: 100;
+    cursor: pointer;
+    transition: color 0.5s ease-in;
+}/*Hamburguesa*/
+.hamburguer > i{
+    font-size: 25px;
+    line-height: 80px;
+}
