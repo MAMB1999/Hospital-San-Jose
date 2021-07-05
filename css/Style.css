@@ -26,7 +26,7 @@ h1{
 header::before{
     content: "";
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 /*Barra de Navegacion*/
 nav{
@@ -77,4 +77,43 @@ nav ul a{
 .hamburguer > i{
     font-size: 25px;
     line-height: 80px;
+}
+/*Contenedor Header*/
+.contenido-header{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.contenido-header>img{
+    width: 550px;
+    display:block;
+}
+.textos-header{
+    font-weight: 300;
+    justify-content: center;
+    color: #818691;
+}
+.textos-header>h2{
+    font-size: 45px;
+    margin-bottom: 30px;
+}.textos-header p{
+    font-size: 18px;
+}
+.textos-header a{
+    margin: 28px 0 0 90px;
+    width: 130px;
+    display: inline-block;
+    background-color: #e00434;
+    text-align: center;
+    color: #fff;
+    padding: 12px 0;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(224, 4, 52, .45);
+
 }
