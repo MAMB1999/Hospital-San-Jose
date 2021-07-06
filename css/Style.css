@@ -139,7 +139,7 @@ nav ul a{
 .articulo:hover{
     box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
 }/*img de cada articulo*/
-.contenedor img{
+.contenedor1 img{
     width: 80px;
     display: block;
     margin-bottom: 2.8em;
@@ -176,3 +176,95 @@ nav ul a{
     background-color: lightseagreen;
     transition: background .7s;
 }
+/* Questions */
+.questions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}/*Img de questions*/ 
+.questions >img{
+    width: 400px;
+}/*Contenedor Questions*/
+.textos-questions{
+    margin: 0 30px 0 80px;
+}/*Propiedades de los elementos del contenedor*/
+.textos-questions h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.textos-questions p{
+    width: 70%;
+    margin-top: 16px;
+    font-weight: 300;
+    color: #5D6678;
+}.textos-questions a{
+    margin: 28px 0 0 20px;
+    padding: 12px 0;
+    width: 180px;
+    display: inline-block;
+    background-color: #e00434;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 0 8px 32px rgba(224, 4, 52, .45);
+}/*RESULTS*/
+.results{
+    background-color: rgba(70, 206, 161, 0.925);
+    padding-top: 30px;
+    margin-bottom: 40px;
+}/*Contenedor results*/
+.content-results{
+    display: flex;
+}/*Elementos del contenedor results*/
+.numbers{
+    width: 50%;
+    padding: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}.numbers .number{
+    width: 45%;
+    background-color:rgba(39, 129, 99, 0.3);
+    color: #fff;
+    border-radius: 10px;
+    padding: 40px 35px;
+    margin-bottom: 20px
+}.numbers .number span{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+}.results-text{
+    width: 37%;
+    margin-left: 3%;
+    padding-top: 50px;
+}.results-text h4{
+    color: #fff;
+    font-size: 40px;
+}.results-text p{
+    color: #fff;
+    font-weight: 300;
+    margin: 20px 0;
+}
+.results-text>a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 10px 0;
+    width: 120px;
+    text-align: center;
+ }.results-text > a:hover{
+     background-color:rgba(39, 129, 99, 0.3);
+     border-radius: 15px;
+     width: 200px;
+     padding:15px 0;
+     transition: background 1s, border 1s, width 1s;
+     transition-duration: 2s;  
+     trans
+ }
